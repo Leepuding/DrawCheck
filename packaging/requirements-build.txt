@@ -1,0 +1,8 @@
+# For Windows x64, install from an approved offline wheelhouse into a fresh
+# Python 3.12 venv and snapshot it with preflight.py lock before building.
+# On macOS, install into a native arm64 Python 3.12 or 3.13 venv.
+-r ../requirements.txt
+PyInstaller>=6.11,<7
+pyinstaller-hooks-contrib>=2024.10
+pythonnet>=3.0.5,<4; sys_platform == 'win32'
+pywin32-ctypes>=0.2.3,<1; sys_platform == 'win32'

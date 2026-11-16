@@ -1,0 +1,1 @@
+"""Independent product integration acceptance."""

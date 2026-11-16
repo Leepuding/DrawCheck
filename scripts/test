@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# 必跑测试入口（DC-02）
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT"
+if [[ -x "$ROOT/.venv/bin/python" ]]; then
+  PY="$ROOT/.venv/bin/python"
+else
+  PY=python3
+fi
+export PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}"
+exec "$PY" -m pytest \
+  tests/backend/test_health.py \
+  tests/app/test_launcher.py \
+  tests/e2e/test_shell.py \
+  -q "$@"

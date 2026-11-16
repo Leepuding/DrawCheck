@@ -28,8 +28,6 @@
 
 ## 源码运行
 
-以下命令在项目源码目录中执行。
-
 使用 Python 3.12 或 3.13。安装 Poppler、LibreDWG 和 7-Zip 后，请确保其命令可从 PATH 找到。Windows 桌面窗口还需要 WebView2。
 
 **macOS**
@@ -57,14 +55,14 @@ py -3.12 -m venv .venv-win
 | Windows x64 | Windows 上运行 `packaging/build.ps1` | Inno Setup `-win-x64-setup.exe` |
 | macOS Apple Silicon | macOS 上运行 `bash packaging/build-macos.sh` | 可拖入应用程序目录的 `.dmg` |
 
-Windows 构建使用离线工具清单。macOS 应用自带 Python 运行时，Poppler、LibreDWG 和 7-Zip 由目标机器另行安装。构建前置条件、输出位置和验收步骤见项目源码内的 `docs/BUILD.md`。
+Windows 构建使用离线工具清单。macOS 应用自带 Python 运行时，Poppler、LibreDWG 和 7-Zip 由目标机器另行安装。构建前置条件、输出位置和验收步骤见 [安装包构建说明](docs/BUILD.md)。
 
 ## 接入 Agent 平台
 
 首版可在同一台机器上，通过 **MCP stdio** 或 **本机 HTTP API** 读取用户指定版本的审查结果。支持 MCP stdio 的客户端可以注册工具，支持自定义 HTTP 请求的平台可以配置本机接口。
 
-Agent 可以获取审查状态、结果汇总与问题索引。发起审查、处理待确认和导出报告在桌面应用中完成。使用源码环境启动接口，接入命令、授权方式和调用示例见项目源码内 `docs/API.md` 的「本机 Agent 只读接口 v1」。
+Agent 可以获取审查状态、结果汇总与问题索引。发起审查、处理待确认和导出报告在桌面应用中完成。使用源码环境启动接口，接入命令、授权方式和调用示例见 [Agent 接入文档](docs/API.md#本机-agent-只读接口-v1)。
 
 ## 第三方组件
 
-依赖、字体与外部工具的许可见项目源码内的 `LICENSES.md`。
+依赖、字体与外部工具的许可见 [LICENSES.md](LICENSES.md)。

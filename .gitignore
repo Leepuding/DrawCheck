@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-win/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 构建 / 打包
+build/
+dist/
+*.spec
+!/packaging/drawcheck.spec
+!/packaging/drawcheck-macos.spec
+packaging/output/
+*.exe
+*.msi
+
+# 项目运行数据与样本（不进仓）
+data/
+projects/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+samples/
+DRAWCHECK_SAMPLES/
+
+# 本地验证证据可能含原图、转换件、缓存和模型响应，统一留在本机。
+# 可提交的合成夹具和脱敏说明分别放 fixtures/ 和 docs/。
+/_evidence/
+
+# 密钥与本地配置
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 日志与临时
+*.log
+tmp/
+temp/
+.cache/
+
+# DC-01 spike 本地产物 / 依赖前缀（不进仓）
+tools/spike/out/
+tools/spike-deps/
+.venv/

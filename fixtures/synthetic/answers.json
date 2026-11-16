@@ -1,0 +1,1119 @@
+{
+  "kind": "synthetic-dev-answers",
+  "is_golden_sample": false,
+  "disclaimer": "自制开发用答案，不是金样本，不能替代最终验收。",
+  "version": "DC-05-v1",
+  "created": "2026-11-03",
+  "tolerance_defaults_ref": {
+    "dimension_tolerance_mm": "settings.dimension_tolerance_mm（默认 1）",
+    "elevation_tolerance_m": "settings.elevation_tolerance_m（默认 0.005）",
+    "equal_boundary": "差值≤容差不报；仅>容差才报（SPEC 第4波裁定）"
+  },
+  "catalog": {
+    "A": [
+      {
+        "specialty": "综合",
+        "drawing_number": "S-000",
+        "name": "图纸目录",
+        "file": "A/S-000-catalog.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-001",
+        "name": "总平面布置图",
+        "file": "A/S-001-plan.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-002",
+        "name": "基础详图（一）",
+        "file": "A/S-002-dims.pdf",
+        "page": 1,
+        "page_size": "A2_LANDSCAPE"
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-003",
+        "name": "基础详图(二）",
+        "file": "A/S-003-elev.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-004",
+        "name": "设备材料表",
+        "file": "A/S-004-materials.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-005",
+        "name": "箱变编号图",
+        "file": "A/S-005-numbers.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-006",
+        "name": "详图索引",
+        "file": "A/S-006-index.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-007A",
+        "name": "多图框左",
+        "file": "A/S-007-multi.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "multi_frame": true
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-007B",
+        "name": "多图框右",
+        "file": "A/S-007-multi.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "multi_frame": true
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-008",
+        "name": "无图签页",
+        "file": "A/S-008-notitle.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "no_title_block": true
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-009",
+        "name": "模糊标注页",
+        "file": "A/S-009-blur.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-010",
+        "name": "同名对象页",
+        "file": "A/S-010-samename.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-PREFIX",
+        "name": "前缀不符示例",
+        "file": "A/S-PREFIX-bad.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-EXTRA",
+        "name": "目录未列图",
+        "file": "A/S-EXTRA.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "unlisted_in_catalog_sheet": true
+      },
+      {
+        "specialty": "装修",
+        "drawing_number": "DEC-01",
+        "name": "装修平面图",
+        "file": "A/DEC-01-scope.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "out_of_scope": true
+      }
+    ],
+    "B": [
+      {
+        "specialty": "综合",
+        "drawing_number": "S-000",
+        "name": "图纸目录",
+        "file": "B/S-000-catalog.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-001",
+        "name": "总平面布置图",
+        "file": "B/S-001-plan.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-002",
+        "name": "基础详图（一）",
+        "file": "B/S-002-dims.pdf",
+        "page": 1,
+        "page_size": "A2_LANDSCAPE"
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-003",
+        "name": "基础详图(二）",
+        "file": "B/S-003-elev.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-004",
+        "name": "设备材料表",
+        "file": "B/S-004-materials.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-005",
+        "name": "箱变编号图",
+        "file": "B/S-005-numbers.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-006",
+        "name": "详图索引",
+        "file": "B/S-006-index.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-007A",
+        "name": "多图框左",
+        "file": "B/S-007-multi.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "multi_frame": true
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-007B",
+        "name": "多图框右",
+        "file": "B/S-007-multi.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "multi_frame": true
+      },
+      {
+        "specialty": "土建",
+        "drawing_number": "S-008",
+        "name": "无图签页",
+        "file": "B/S-008-notitle.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "no_title_block": true
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-009",
+        "name": "模糊标注页",
+        "file": "B/S-009-blur.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-010",
+        "name": "同名对象页",
+        "file": "B/S-010-samename.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-PREFIX",
+        "name": "前缀不符示例",
+        "file": "B/S-PREFIX-bad.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE"
+      },
+      {
+        "specialty": "电气",
+        "drawing_number": "S-EXTRA",
+        "name": "目录未列图",
+        "file": "B/S-EXTRA.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "unlisted_in_catalog_sheet": true
+      },
+      {
+        "specialty": "装修",
+        "drawing_number": "DEC-01",
+        "name": "装修平面图",
+        "file": "B/DEC-01-scope.pdf",
+        "page": 1,
+        "page_size": "A3_LANDSCAPE",
+        "out_of_scope": true
+      }
+    ],
+    "listed_missing": [
+      "S-MISSING"
+    ],
+    "catalog_sheet_omits": [
+      "S-EXTRA"
+    ]
+  },
+  "issues": [
+    {
+      "id": "ISSUE-CAT-MISSING",
+      "category": "目录与图签不符",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "目录列了但缺图 S-MISSING",
+      "side_a": {
+        "drawing_number": "S-000",
+        "text": "S-MISSING",
+        "bbox": null,
+        "unclear": false
+      },
+      "side_b": null,
+      "notes": "目录列了但图纸缺；每张各一条"
+    },
+    {
+      "id": "ISSUE-CAT-EXTRA",
+      "category": "目录与图签不符",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "有图但目录未列 S-EXTRA",
+      "side_a": {
+        "drawing_number": "S-EXTRA",
+        "text": "S-EXTRA",
+        "bbox": {
+          "x0": 0.8471296296296297,
+          "y0": 0.8907220351664796,
+          "x1": 0.9815211640211641,
+          "y1": 0.9738683127572016
+        },
+        "unclear": false
+      },
+      "side_b": null,
+      "notes": "有图但目录未列；每张各一条"
+    },
+    {
+      "id": "ISSUE-CAT-COUNT",
+      "category": "目录张数",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "目录张数与实到图不一致（含缺图与未列）",
+      "side_a": {
+        "drawing_number": "S-000",
+        "text": "目录张数",
+        "bbox": null,
+        "unclear": false
+      },
+      "side_b": null,
+      "notes": "汇总口径；明细见 ISSUE-CAT-MISSING / EXTRA"
+    },
+    {
+      "id": "ISSUE-CAT-OK",
+      "category": "目录张数",
+      "expectation": "不应报",
+      "rule_group": "A",
+      "description": "S-001 在目录与图纸中均存在",
+      "side_a": {
+        "drawing_number": "S-001",
+        "text": "S-001",
+        "bbox": {
+          "x0": 0.8471296296296297,
+          "y0": 0.8907220351664796,
+          "x1": 0.9815211640211641,
+          "y1": 0.9738683127572016
+        },
+        "unclear": false
+      },
+      "side_b": null
+    },
+    {
+      "id": "ISSUE-PREFIX-BAD",
+      "category": "图签编号前缀",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "电气图签前缀 AB 与约定 S 不符",
+      "side_a": {
+        "drawing_number": "S-PREFIX",
+        "text": "AB-001",
+        "bbox": {
+          "x0": 0.8471296296296297,
+          "y0": 0.8907220351664796,
+          "x1": 0.9815211640211641,
+          "y1": 0.9738683127572016
+        },
+        "unclear": false
+      },
+      "side_b": null
+    },
+    {
+      "id": "ISSUE-PREFIX-OK",
+      "category": "图签编号前缀",
+      "expectation": "不应报",
+      "rule_group": "A",
+      "description": "S-001 前缀符合约定",
+      "side_a": {
+        "drawing_number": "S-001",
+        "text": "S-001",
+        "bbox": {
+          "x0": 0.8471296296296297,
+          "y0": 0.8907220351664796,
+          "x1": 0.9815211640211641,
+          "y1": 0.9738683127572016
+        },
+        "unclear": false
+      },
+      "side_b": null
+    },
+    {
+      "id": "ISSUE-DIM-CONFLICT",
+      "category": "尺寸",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "100×100×100 对 100×200×100",
+      "side_a": {
+        "drawing_number": "S-002",
+        "text": "100×100×100mm",
+        "bbox": {
+          "x0": 0.045730452674897115,
+          "y0": 0.751207671957672,
+          "x1": 0.13846824728769172,
+          "y1": 0.7673346560846561
+        },
+        "unclear": false,
+        "unit": "mm"
+      },
+      "side_b": {
+        "drawing_number": "S-002",
+        "text": "100×200×100mm",
+        "bbox": {
+          "x0": 0.18826692854470628,
+          "y0": 0.751207671957672,
+          "x1": 0.28100472315750086,
+          "y1": 0.7673346560846561
+        },
+        "unclear": false,
+        "unit": "mm"
+      }
+    },
+    {
+      "id": "ISSUE-DIM-OK",
+      "category": "尺寸",
+      "expectation": "不应报",
+      "rule_group": "A",
+      "description": "两侧 200×200 一致",
+      "side_a": {
+        "drawing_number": "S-002",
+        "text": "200×200mm",
+        "bbox": {
+          "x0": 0.23577908716797602,
+          "y0": 0.8194113756613757,
+          "x1": 0.2954662364384586,
+          "y1": 0.8345304232804233
+        },
+        "unclear": false,
+        "unit": "mm"
+      },
+      "side_b": {
+        "drawing_number": "S-002",
+        "text": "200×200mm",
+        "bbox": {
+          "x0": 0.30704732510288063,
+          "y0": 0.8194113756613757,
+          "x1": 0.3667344743733632,
+          "y1": 0.8345304232804233
+        },
+        "unclear": false,
+        "unit": "mm"
+      }
+    },
+    {
+      "id": "ISSUE-DIM-TOL-EQ",
+      "category": "尺寸",
+      "expectation": "不应报",
+      "rule_group": "A",
+      "description": "尺寸差等于容差（1mm）不报",
+      "side_a": {
+        "drawing_number": "S-002",
+        "text": "100mm",
+        "bbox": {
+          "x0": 0.045730452674897115,
+          "y0": 0.8194113756613757,
+          "x1": 0.0804737186681631,
+          "y1": 0.8345304232804233
+        },
+        "unclear": false,
+        "unit": "mm",
+        "numeric_value": "100"
+      },
+      "side_b": {
+        "drawing_number": "S-002",
+        "text": "101mm",
+        "bbox": {
+          "x0": 0.1169986906098017,
+          "y0": 0.8194113756613757,
+          "x1": 0.1517419566030677,
+          "y1": 0.8345304232804233
+        },
+        "unclear": false,
+        "unit": "mm",
+        "numeric_value": "101"
+      },
+      "tolerance": {
+        "config_key": "dimension_tolerance_mm",
+        "boundary": "equal",
+        "compare": "abs_diff",
+        "decision": "lte_tolerance_no_report"
+      }
+    },
+    {
+      "id": "ISSUE-DIM-TOL-OVER",
+      "category": "尺寸",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "尺寸差超过容差（2mm>1mm）应报",
+      "side_a": {
+        "drawing_number": "S-002",
+        "text": "100mm",
+        "bbox": {
+          "x0": 0.045730452674897115,
+          "y0": 0.8614087301587302,
+          "x1": 0.0804737186681631,
+          "y1": 0.8765277777777778
+        },
+        "unclear": false,
+        "unit": "mm",
+        "numeric_value": "100"
+      },
+      "side_b": {
+        "drawing_number": "S-002",
+        "text": "102mm",
+        "bbox": {
+          "x0": 0.1169986906098017,
+          "y0": 0.8614087301587302,
+          "x1": 0.1517419566030677,
+          "y1": 0.8765277777777778
+        },
+        "unclear": false,
+        "unit": "mm",
+        "numeric_value": "102"
+      },
+      "tolerance": {
+        "config_key": "dimension_tolerance_mm",
+        "boundary": "over",
+        "compare": "abs_diff",
+        "decision": "gt_tolerance_report"
+      }
+    },
+    {
+      "id": "ISSUE-DIM-NO-UNIT",
+      "category": "尺寸",
+      "expectation": "未核验",
+      "rule_group": "A",
+      "description": "一侧缺单位，待确认不报错误",
+      "side_a": {
+        "drawing_number": "S-002",
+        "text": "150",
+        "bbox": {
+          "x0": 0.045730452674897115,
+          "y0": 0.9034060846560846,
+          "x1": 0.0680017770295548,
+          "y1": 0.9185251322751323
+        },
+        "unclear": false,
+        "numeric_value": "150"
+      },
+      "side_b": {
+        "drawing_number": "S-002",
+        "text": "150mm",
+        "bbox": {
+          "x0": 0.1169986906098017,
+          "y0": 0.9034060846560846,
+          "x1": 0.1517419566030677,
+          "y1": 0.9185251322751323
+        },
+        "unclear": false,
+        "unit": "mm",
+        "numeric_value": "150"
+      },
+      "tolerance": {
+        "config_key": "dimension_tolerance_mm",
+        "boundary": "missing_unit",
+        "decision": "pending_confirm_no_error"
+      }
+    },
+    {
+      "id": "ISSUE-ELV-CONFLICT",
+      "category": "标高",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "标高 4.350 对 4.300",
+      "side_a": {
+        "drawing_number": "S-003",
+        "text": "±0.000=4.350m",
+        "bbox": {
+          "x0": 0.05627645502645502,
+          "y0": 0.7698035914702581,
+          "x1": 0.16450363756613756,
+          "y1": 0.7897586980920315
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.350"
+      },
+      "side_b": {
+        "drawing_number": "S-003",
+        "text": "4.300m",
+        "bbox": {
+          "x0": 0.2326653439153439,
+          "y0": 0.7698035914702581,
+          "x1": 0.2853300264550264,
+          "y1": 0.7897586980920315
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.300"
+      }
+    },
+    {
+      "id": "ISSUE-ELV-OK",
+      "category": "标高",
+      "expectation": "不应报",
+      "rule_group": "A",
+      "description": "标高 3.000 一致",
+      "side_a": {
+        "drawing_number": "S-003",
+        "text": "3.000m",
+        "bbox": {
+          "x0": 0.2662632275132275,
+          "y0": 0.8291937897493453,
+          "x1": 0.31892791005291,
+          "y1": 0.8491488963711187
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "3.000"
+      },
+      "side_b": {
+        "drawing_number": "S-003",
+        "text": "3.000m",
+        "bbox": {
+          "x0": 0.3334589947089947,
+          "y0": 0.8291937897493453,
+          "x1": 0.3861236772486772,
+          "y1": 0.8491488963711187
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "3.000"
+      }
+    },
+    {
+      "id": "ISSUE-ELV-TOL-EQ",
+      "category": "标高",
+      "expectation": "不应报",
+      "rule_group": "A",
+      "description": "标高差等于容差（0.005m）不报",
+      "side_a": {
+        "drawing_number": "S-003",
+        "text": "4.350m",
+        "bbox": {
+          "x0": 0.05627645502645502,
+          "y0": 0.8291937897493453,
+          "x1": 0.10894113756613755,
+          "y1": 0.8491488963711187
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.350"
+      },
+      "side_b": {
+        "drawing_number": "S-003",
+        "text": "4.355m",
+        "bbox": {
+          "x0": 0.1486706349206349,
+          "y0": 0.8291937897493453,
+          "x1": 0.20133531746031744,
+          "y1": 0.8491488963711187
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.355"
+      },
+      "tolerance": {
+        "config_key": "elevation_tolerance_m",
+        "boundary": "equal",
+        "compare": "abs_diff",
+        "decision": "lte_tolerance_no_report"
+      }
+    },
+    {
+      "id": "ISSUE-ELV-TOL-OVER",
+      "category": "标高",
+      "expectation": "应报",
+      "rule_group": "A",
+      "description": "标高差超过容差（0.010>0.005）应报",
+      "side_a": {
+        "drawing_number": "S-003",
+        "text": "4.350m",
+        "bbox": {
+          "x0": 0.05627645502645502,
+          "y0": 0.8767059483726151,
+          "x1": 0.10894113756613755,
+          "y1": 0.8966610549943883
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.350"
+      },
+      "side_b": {
+        "drawing_number": "S-003",
+        "text": "4.360m",
+        "bbox": {
+          "x0": 0.1486706349206349,
+          "y0": 0.8767059483726151,
+          "x1": 0.20133531746031744,
+          "y1": 0.8966610549943883
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.360"
+      },
+      "tolerance": {
+        "config_key": "elevation_tolerance_m",
+        "boundary": "over",
+        "compare": "abs_diff",
+        "decision": "gt_tolerance_report"
+      }
+    },
+    {
+      "id": "ISSUE-NUM-STYLE",
+      "category": "编号写法",
+      "expectation": "应报",
+      "rule_group": "B",
+      "description": "XB-03 对 XB-3",
+      "side_a": {
+        "drawing_number": "S-005",
+        "text": "XB-03",
+        "bbox": {
+          "x0": 0.06467592592592591,
+          "y0": 0.7774055368499813,
+          "x1": 0.12263227513227512,
+          "y1": 0.8016367377478488
+        },
+        "unclear": false
+      },
+      "side_b": {
+        "drawing_number": "S-005",
+        "text": "XB-3",
+        "bbox": {
+          "x0": 0.2074669312169312,
+          "y0": 0.7774055368499813,
+          "x1": 0.25483994708994706,
+          "y1": 0.8016367377478488
+        },
+        "unclear": false
+      }
+    },
+    {
+      "id": "ISSUE-NUM-OK",
+      "category": "编号写法",
+      "expectation": "不应报",
+      "rule_group": "B",
+      "description": "XB-11 一致",
+      "side_a": {
+        "drawing_number": "S-005",
+        "text": "XB-11",
+        "bbox": {
+          "x0": 0.06467592592592591,
+          "y0": 0.8486737747848859,
+          "x1": 0.12263227513227512,
+          "y1": 0.8729049756827535
+        },
+        "unclear": false
+      },
+      "side_b": {
+        "drawing_number": "S-005",
+        "text": "XB-11",
+        "bbox": {
+          "x0": 0.2074669312169312,
+          "y0": 0.8486737747848859,
+          "x1": 0.2654232804232804,
+          "y1": 0.8729049756827535
+        },
+        "unclear": false
+      }
+    },
+    {
+      "id": "ISSUE-SPEC",
+      "category": "材料规格",
+      "expectation": "应报",
+      "rule_group": "B",
+      "description": "YJV-3×95 对 YJV-3×70",
+      "side_a": {
+        "drawing_number": "S-004",
+        "text": "电缆YJV-3×95",
+        "bbox": {
+          "x0": 0.04787698412698412,
+          "y0": 0.7712289562289563,
+          "x1": 0.1234722222222222,
+          "y1": 0.7897586980920315
+        },
+        "unclear": false
+      },
+      "side_b": {
+        "drawing_number": "S-004",
+        "text": "电缆YJV-3×70",
+        "bbox": {
+          "x0": 0.2158664021164021,
+          "y0": 0.7712289562289563,
+          "x1": 0.29146164021164017,
+          "y1": 0.7897586980920315
+        },
+        "unclear": false
+      }
+    },
+    {
+      "id": "ISSUE-SPEC-OK",
+      "category": "材料规格",
+      "expectation": "不应报",
+      "rule_group": "B",
+      "description": "镀锌钢管DN100 一致",
+      "side_a": {
+        "drawing_number": "S-004",
+        "text": "镀锌钢管DN100",
+        "bbox": {
+          "x0": 0.04787698412698412,
+          "y0": 0.8662532734754957,
+          "x1": 0.11641666666666668,
+          "y1": 0.884783015338571
+        },
+        "unclear": false
+      },
+      "side_b": {
+        "drawing_number": "S-004",
+        "text": "镀锌钢管DN100",
+        "bbox": {
+          "x0": 0.2158664021164021,
+          "y0": 0.8662532734754957,
+          "x1": 0.28440608465608463,
+          "y1": 0.884783015338571
+        },
+        "unclear": false
+      }
+    },
+    {
+      "id": "ISSUE-QTY",
+      "category": "数量与材料表",
+      "expectation": "应报",
+      "rule_group": "B",
+      "description": "数量 12 对 10",
+      "side_a": {
+        "drawing_number": "S-004",
+        "text": "数量12",
+        "bbox": {
+          "x0": 0.04787698412698412,
+          "y0": 0.818741114852226,
+          "x1": 0.08113888888888887,
+          "y1": 0.8372708567153012
+        },
+        "unclear": false,
+        "numeric_value": "12"
+      },
+      "side_b": {
+        "drawing_number": "S-004",
+        "text": "数量10",
+        "bbox": {
+          "x0": 0.1654695767195767,
+          "y0": 0.818741114852226,
+          "x1": 0.19873148148148145,
+          "y1": 0.8372708567153012
+        },
+        "unclear": false,
+        "numeric_value": "10"
+      }
+    },
+    {
+      "id": "ISSUE-QTY-OK",
+      "category": "数量与材料表",
+      "expectation": "不应报",
+      "rule_group": "B",
+      "description": "数量 4 与材料表一致",
+      "side_a": {
+        "drawing_number": "S-004",
+        "text": "数量4",
+        "bbox": {
+          "x0": 0.04787698412698412,
+          "y0": 0.8900093527871306,
+          "x1": 0.07408333333333333,
+          "y1": 0.9085390946502058
+        },
+        "unclear": false,
+        "numeric_value": "4"
+      },
+      "side_b": {
+        "drawing_number": "S-004",
+        "text": "数量4",
+        "bbox": {
+          "x0": 0.1654695767195767,
+          "y0": 0.8900093527871306,
+          "x1": 0.1916759259259259,
+          "y1": 0.9085390946502058
+        },
+        "unclear": false,
+        "numeric_value": "4"
+      }
+    },
+    {
+      "id": "ISSUE-INDEX-BROKEN",
+      "category": "详图索引断链",
+      "expectation": "应报",
+      "rule_group": "B",
+      "description": "索引指向不存在的 S-099",
+      "side_a": {
+        "drawing_number": "S-006",
+        "text": "见详图S-099",
+        "bbox": {
+          "x0": 0.06467592592592591,
+          "y0": 0.7802562663673775,
+          "x1": 0.14027116402116402,
+          "y1": 0.8016367377478488
+        },
+        "unclear": false
+      },
+      "side_b": null
+    },
+    {
+      "id": "ISSUE-INDEX-OK",
+      "category": "详图索引断链",
+      "expectation": "不应报",
+      "rule_group": "B",
+      "description": "索引指向存在的 S-003",
+      "side_a": {
+        "drawing_number": "S-006",
+        "text": "见详图S-003",
+        "bbox": {
+          "x0": 0.06467592592592591,
+          "y0": 0.8396464646464646,
+          "x1": 0.14027116402116402,
+          "y1": 0.861026936026936
+        },
+        "unclear": false
+      },
+      "side_b": null
+    },
+    {
+      "id": "ISSUE-SAME-NAME",
+      "category": "同名不同对象",
+      "expectation": "不下结论",
+      "rule_group": "B",
+      "description": "两处「基础F1」可能非同一对象，转待确认或不报",
+      "side_a": {
+        "drawing_number": "S-010",
+        "text": "基础F1",
+        "bbox": {
+          "x0": 0.06467592592592591,
+          "y0": 0.7802562663673775,
+          "x1": 0.10499338624338624,
+          "y1": 0.8016367377478488
+        },
+        "unclear": false
+      },
+      "side_b": {
+        "drawing_number": "S-010",
+        "text": "基础F1",
+        "bbox": {
+          "x0": 0.2326653439153439,
+          "y0": 0.8396464646464646,
+          "x1": 0.2729828042328042,
+          "y1": 0.861026936026936
+        },
+        "unclear": false
+      },
+      "notes": "对照例须为可比较的同一对象；此处故意同名异物"
+    },
+    {
+      "id": "ISSUE-SAME-NAME-OK",
+      "category": "同名不同对象",
+      "expectation": "不应报",
+      "rule_group": "B",
+      "description": "唯一支架Z1，无冲突",
+      "side_a": {
+        "drawing_number": "S-010",
+        "text": "支架Z1",
+        "bbox": {
+          "x0": 0.06467592592592591,
+          "y0": 0.8634025439580996,
+          "x1": 0.10499338624338624,
+          "y1": 0.884783015338571
+        },
+        "unclear": false
+      },
+      "side_b": null
+    },
+    {
+      "id": "ISSUE-BLUR",
+      "category": "尺寸",
+      "expectation": "待确认",
+      "rule_group": "pending",
+      "description": "尺寸「2?00」看不清",
+      "side_a": {
+        "drawing_number": "S-009",
+        "text": "2?00",
+        "bbox": {
+          "x0": 0.1822685185185185,
+          "y0": 0.7774055368499813,
+          "x1": 0.22964153439153434,
+          "y1": 0.8016367377478488
+        },
+        "unclear": true
+      },
+      "side_b": {
+        "drawing_number": "S-009",
+        "text": "2400",
+        "bbox": {
+          "x0": 0.06467592592592591,
+          "y0": 0.7774055368499813,
+          "x1": 0.1120489417989418,
+          "y1": 0.8016367377478488
+        },
+        "unclear": false
+      },
+      "notes": "Q-05 情况①：看不清进待你确认；回放标 unclear"
+    },
+    {
+      "id": "REV-STILL-ELV",
+      "category": "标高",
+      "expectation": "应报",
+      "rule_group": "A",
+      "revision": "仍存在",
+      "description": "B 套标高冲突仍存在",
+      "side_a": {
+        "drawing_number": "S-003",
+        "text": "±0.000=4.350m",
+        "bbox": {
+          "x0": 0.05627645502645502,
+          "y0": 0.7698035914702581,
+          "x1": 0.16450363756613756,
+          "y1": 0.7897586980920315
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.350"
+      },
+      "side_b": {
+        "drawing_number": "S-003",
+        "text": "4.300m",
+        "bbox": {
+          "x0": 0.2326653439153439,
+          "y0": 0.7698035914702581,
+          "x1": 0.2853300264550264,
+          "y1": 0.7897586980920315
+        },
+        "unclear": false,
+        "unit": "m",
+        "numeric_value": "4.300"
+      },
+      "matches_issue": "ISSUE-ELV-CONFLICT"
+    },
+    {
+      "id": "REV-RESOLVED-DIM",
+      "category": "尺寸",
+      "expectation": "不应报",
+      "rule_group": "A",
+      "revision": "已解决",
+      "description": "B 套尺寸冲突已改为一致",
+      "side_a": {
+        "drawing_number": "S-002",
+        "text": "100×100×100mm",
+        "bbox": {
+          "x0": 0.045730452674897115,
+          "y0": 0.751207671957672,
+          "x1": 0.13846824728769172,
+          "y1": 0.7673346560846561
+        },
+        "unclear": false,
+        "unit": "mm"
+      },
+      "side_b": {
+        "drawing_number": "S-002",
+        "text": "100×100×100mm",
+        "bbox": {
+          "x0": 0.18826692854470628,
+          "y0": 0.751207671957672,
+          "x1": 0.28100472315750086,
+          "y1": 0.7673346560846561
+        },
+        "unclear": false,
+        "unit": "mm"
+      },
+      "matches_issue": "ISSUE-DIM-CONFLICT"
+    },
+    {
+      "id": "REV-NEW-SPEC",
+      "category": "材料规格",
+      "expectation": "应报",
+      "rule_group": "B",
+      "revision": "新出现",
+      "description": "B 套新出现母线规格冲突",
+      "side_a": {
+        "drawing_number": "S-004",
+        "text": "母线TMY-80×8",
+        "bbox": {
+          "x0": 0.04787698412698412,
+          "y0": 0.9137654320987655,
+          "x1": 0.1234722222222222,
+          "y1": 0.9322951739618406
+        },
+        "unclear": false
+      },
+      "side_b": {
+        "drawing_number": "S-004",
+        "text": "母线TMY-60×6",
+        "bbox": {
+          "x0": 0.2158664021164021,
+          "y0": 0.9137654320987655,
+          "x1": 0.29146164021164017,
+          "y1": 0.9322951739618406
+        },
+        "unclear": false
+      }
+    }
+  ],
+  "revision_summary": {
+    "仍存在": 1,
+    "已解决": 1,
+    "新出现": 1
+  },
+  "unchanged_drawings": [
+    {
+      "drawing_number": "S-001",
+      "file_a": "A/S-001-plan.pdf",
+      "file_b": "B/S-001-plan.pdf",
+      "identity": "byte_identical"
+    }
+  ],
+  "pending_confirmations": [
+    {
+      "id": "PEND-BLUR",
+      "issue_id": "ISSUE-BLUR",
+      "drawing_number": "S-009",
+      "reason": "看不清",
+      "text": "2?00"
+    }
+  ]
+}

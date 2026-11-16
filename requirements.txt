@@ -1,0 +1,27 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pywebview>=5.0,<6
+httpx[socks]>=0.27,<1
+pytest>=8.0,<9
+playwright>=1.40,<2
+pypdf>=6.0,<7
+pypdfium2>=5.9,<6
+ezdxf==1.4.5
+matplotlib>=3.9,<4
+
+# DC-05 自制图纸生成
+reportlab>=4.0,<5
+
+# DC-08 模型接入与设置后端
+keyring>=25,<26
+
+# DC-14 浏览器文件上传
+python-multipart>=0.0.18,<1
+
+# DC-17 Excel export
+openpyxl>=3.1,<4
+
+# Local OCR, including bundled Chinese recognition weights.
+rapidocr==3.10.0
+onnxruntime>=1.20,<2
+pdfplumber==0.11.10

@@ -1,0 +1,7 @@
+vendor/
+stage/
+build/
+dist/
+requirements-win.lock
+*.local.json
+__pycache__/

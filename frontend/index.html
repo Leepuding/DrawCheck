@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>图纸审查</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body data-state="idle">
+  <header class="topbar">
+    <div class="brand"><span class="brand-icon symbol" aria-hidden="true">architecture</span><span>图纸审查</span></div>
+    <div class="topbar-right">
+      <nav class="main-actions" aria-label="主要操作">
+        <button type="button" class="main-button is-primary" data-testid="btn-import" data-action="import"><span class="symbol" aria-hidden="true">upload_file</span>导入</button>
+        <button type="button" class="main-button" data-testid="btn-review" data-action="review" disabled><span class="symbol" aria-hidden="true">play_arrow</span>开始审查</button>
+        <button type="button" class="main-button" data-testid="btn-export" data-action="export" disabled><span class="symbol" aria-hidden="true">file_download</span>导出</button>
+      </nav>
+      <div class="utilities">
+        <a href="#" class="history-link" data-testid="link-history" data-action="history">历史</a>
+        <button type="button" class="icon-button settings-button" data-testid="btn-settings" data-action="settings" aria-label="设置" title="设置"><span class="symbol" aria-hidden="true">settings</span></button>
+      </div>
+    </div>
+  </header>
+  <input type="file" id="file-input" data-testid="in-import-files" multiple hidden>
+  <input type="file" id="folder-input" data-testid="in-import-folder" multiple webkitdirectory hidden>
+  <main id="main" tabindex="-1"></main>
+  <div id="overlay-root"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <noscript>请启用脚本后使用图纸审查。</noscript>
+</body>
+</html>

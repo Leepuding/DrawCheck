@@ -1,0 +1,291 @@
+{
+  "kind": "synthetic-fixtures-manifest",
+  "is_golden_sample": false,
+  "disclaimer": "自制开发夹具，不是金样本。",
+  "poppler_version": "pdftoppm version 26.10.0",
+  "determinism_scope": "第6条仅约束 PDF 与 answers/replay/anomalies 等固定产物；不含 MANIFEST 元数据时间戳，亦不含 optional DWG/DXF 字节",
+  "files": [
+    {
+      "relative_path": "build/A/DEC-01-scope.pdf",
+      "sha256": "fdb864b14cbc717c395e5bf03c546bb8a51aa3df37f945de1289c6c7478de948",
+      "size": 3026,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-000-catalog.pdf",
+      "sha256": "a48e21cb318e462ce4851546c415f30b6b2aa37f4dd8cdfad61896ce3515d99b",
+      "size": 11837,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-001-plan.pdf",
+      "sha256": "81075989c4e92385f26869a00184016dabce74ed865da02cc65cf79537aab278",
+      "size": 3042,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-002-dims.pdf",
+      "sha256": "2d1ff759fb0d6f1eeb46f0c173c2183d308ad1616bba52c936656a067c2703ab",
+      "size": 5211,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-003-elev.pdf",
+      "sha256": "6c81daa1cc50a167bd1c4f159ea57d18fcd773c29f41354a0797c909f682a71e",
+      "size": 4974,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-004-materials.pdf",
+      "sha256": "4600145e4f2c961000996b7ff5079fcfe7cee2ecc8234327f70809495126787b",
+      "size": 4941,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-005-numbers.pdf",
+      "sha256": "30c1f144ba475cc73bbd0b80b84debca121b2dd406a8eb3eea8e14d78a396310",
+      "size": 3591,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-006-index.pdf",
+      "sha256": "56e3b147f25d8d453f7a19dd2173e15fd4808f954228ef29f25a92961d25ff2f",
+      "size": 3380,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-007-multi.pdf",
+      "sha256": "b06abc7626a95fb27a6d21bc7c23bfb567a5ba378667d4049131efa15cae6395",
+      "size": 3506,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-008-notitle.pdf",
+      "sha256": "4bbf8c736c6547d79612663c262f33390f58f2be976bc3274dd6a39f7417da08",
+      "size": 1784,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-009-blur.pdf",
+      "sha256": "00e0753fbe3af0ea8b862d5d311d07b04c2a48a3a08677ef2b892711d22b807f",
+      "size": 3831,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-010-samename.pdf",
+      "sha256": "0bfa1612e036b9d578712215def54bbd0b5ada10e192f587a5fc61de17618751",
+      "size": 3212,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-EXTRA.pdf",
+      "sha256": "1fce7199dd6832e53ba2e84e846bff6780bae7550765bfd222966ea7826460b9",
+      "size": 2659,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/A/S-PREFIX-bad.pdf",
+      "sha256": "d9baa03e0484eb43242caa255744c0b25db14e6f7c22f74635c6dd89763075ec",
+      "size": 2719,
+      "purpose": "A 套图纸"
+    },
+    {
+      "relative_path": "build/B/DEC-01-scope.pdf",
+      "sha256": "fdb864b14cbc717c395e5bf03c546bb8a51aa3df37f945de1289c6c7478de948",
+      "size": 3026,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-000-catalog.pdf",
+      "sha256": "a48e21cb318e462ce4851546c415f30b6b2aa37f4dd8cdfad61896ce3515d99b",
+      "size": 11837,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-001-plan.pdf",
+      "sha256": "81075989c4e92385f26869a00184016dabce74ed865da02cc65cf79537aab278",
+      "size": 3042,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-002-dims.pdf",
+      "sha256": "254d1f2b34cbcf7f73b07cca679ed9047c22ea20f00313a3510fe2e566f2c81d",
+      "size": 5185,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-003-elev.pdf",
+      "sha256": "6c81daa1cc50a167bd1c4f159ea57d18fcd773c29f41354a0797c909f682a71e",
+      "size": 4974,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-004-materials.pdf",
+      "sha256": "e861235d2762bc0a31ac5238aa31fe0867a9656afe0f66b6f22144f76de8a318",
+      "size": 5629,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-005-numbers.pdf",
+      "sha256": "30c1f144ba475cc73bbd0b80b84debca121b2dd406a8eb3eea8e14d78a396310",
+      "size": 3591,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-006-index.pdf",
+      "sha256": "56e3b147f25d8d453f7a19dd2173e15fd4808f954228ef29f25a92961d25ff2f",
+      "size": 3380,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-007-multi.pdf",
+      "sha256": "b06abc7626a95fb27a6d21bc7c23bfb567a5ba378667d4049131efa15cae6395",
+      "size": 3506,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-008-notitle.pdf",
+      "sha256": "4bbf8c736c6547d79612663c262f33390f58f2be976bc3274dd6a39f7417da08",
+      "size": 1784,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-009-blur.pdf",
+      "sha256": "00e0753fbe3af0ea8b862d5d311d07b04c2a48a3a08677ef2b892711d22b807f",
+      "size": 3831,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-010-samename.pdf",
+      "sha256": "0bfa1612e036b9d578712215def54bbd0b5ada10e192f587a5fc61de17618751",
+      "size": 3212,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-EXTRA.pdf",
+      "sha256": "1fce7199dd6832e53ba2e84e846bff6780bae7550765bfd222966ea7826460b9",
+      "size": 2659,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "build/B/S-PREFIX-bad.pdf",
+      "sha256": "d9baa03e0484eb43242caa255744c0b25db14e6f7c22f74635c6dd89763075ec",
+      "size": 2719,
+      "purpose": "B 套图纸"
+    },
+    {
+      "relative_path": "answers.json",
+      "sha256": "a4265f11673ec162f09edbcfdfc02436759f2073a19dbdffc8495ba4f7ce83fd",
+      "size": 29857,
+      "purpose": "开发答案"
+    },
+    {
+      "relative_path": "replay/A/index.json",
+      "sha256": "91552491a3f6fb8d886226de1628a140fdcda8760543fcdc9815a23192279084",
+      "size": 21060,
+      "purpose": "A 套 Mock 回放索引"
+    },
+    {
+      "relative_path": "replay/B/index.json",
+      "sha256": "509fb0d29d6b35a4327e290f6d3f2d40b060d25c605709daf8e39be6b6303532",
+      "size": 21808,
+      "purpose": "B 套 Mock 回放索引"
+    }
+  ],
+  "anomalies": [
+    {
+      "relative_path": "anomalies/corrupt.pdf",
+      "purpose": "损坏 PDF（头合法但体损坏）",
+      "expect_code": "PDF_CORRUPT",
+      "expect_status": "unreadable",
+      "size": 18,
+      "sha256": "a14086c53888c1828360919fb50f4c034411604474aa008016543e667fd319d0"
+    },
+    {
+      "relative_path": "anomalies/encrypted.pdf",
+      "purpose": "加密 PDF",
+      "expect_code": "PDF_ENCRYPTED",
+      "expect_status": "unreadable",
+      "size": 828,
+      "sha256": "5915bb3b2fd17d137fadd6217dbf7465041de1083f8de0ed601d0f9c16eff5ad"
+    },
+    {
+      "relative_path": "anomalies/empty.pdf",
+      "purpose": "空文件",
+      "expect_code": "EMPTY_FILE",
+      "expect_status": "unreadable",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "anomalies/disguised_dxf.pdf",
+      "purpose": "扩展名伪装为 PDF 的 DXF",
+      "expect_code": "UNSUPPORTED_FORMAT",
+      "expect_status": "unreadable",
+      "size": 34,
+      "sha256": "faeb24a3aa371be00d0376b00c26769820dd564c25d36e5e1cb5a9ffe9d13522"
+    },
+    {
+      "relative_path": "anomalies/sample.dxf",
+      "purpose": "DXF（不支持）",
+      "expect_code": "UNSUPPORTED_FORMAT",
+      "expect_status": "unreadable",
+      "size": 34,
+      "sha256": "faeb24a3aa371be00d0376b00c26769820dd564c25d36e5e1cb5a9ffe9d13522"
+    },
+    {
+      "relative_path": "anomalies/sample.docx",
+      "purpose": "docx（不支持）",
+      "expect_code": "UNSUPPORTED_FORMAT",
+      "expect_status": "unreadable",
+      "size": 265,
+      "sha256": "853ff8357998caa5c6be60b7f6d86278d03475a80df358465bd802ab0149957a"
+    },
+    {
+      "relative_path": "anomalies/path_traversal.zip",
+      "purpose": "路径穿越压缩包",
+      "expect_code": "UNSAFE_ARCHIVE_PATH",
+      "expect_status": "unreadable",
+      "size": 226,
+      "sha256": "7f4409ca4d3733ee4fc86481b924fc44b11d88b8c09bcdc45060e372ee81da9d"
+    },
+    {
+      "relative_path": "anomalies/nested.zip",
+      "purpose": "嵌套压缩包",
+      "expect_code": "NESTED_ARCHIVE",
+      "expect_status": "unreadable",
+      "size": 245,
+      "sha256": "94dbc95aeb9488b7e1e21be19788fb2ef61995ca29efee11f0c5b70a7e3ad663"
+    },
+    {
+      "relative_path": "anomalies/password.zip",
+      "purpose": "带密码压缩包",
+      "expect_code": "ARCHIVE_ENCRYPTED",
+      "expect_status": "unreadable",
+      "size": 125,
+      "sha256": "2ac9ca62fa2485150875ea751075cefb933a15b8e9840c424822f7eb57aa5d00"
+    },
+    {
+      "relative_path": "anomalies/fake.dwg",
+      "purpose": "伪 DWG 头（AC1018+垃圾）：导入实际解析后明确读不了",
+      "expect_import_status": "unreadable",
+      "expect_code": "DWG_INCOMPLETE",
+      "expect_dc07": "UNREADABLE",
+      "expect_status": "unreadable",
+      "size": 98,
+      "sha256": "cb79ff76021722a0bcb43169d1e72984163b181304a771ba99dcbd2b04544502"
+    }
+  ],
+  "optional_dwg": {
+    "status": "partial",
+    "parse_status": "PARTIAL",
+    "dxf": "build/optional/tiny.dxf",
+    "dwg": "build/optional/tiny.dwg",
+    "note": "LibreDWG/ezdxf 输出非确定；SHA 不入 MANIFEST，不做跨次一致性断言"
+  },
+  "unchanged_check": {
+    "A/S-001-plan.pdf": "81075989c4e92385f26869a00184016dabce74ed865da02cc65cf79537aab278",
+    "B/S-001-plan.pdf": "81075989c4e92385f26869a00184016dabce74ed865da02cc65cf79537aab278",
+    "byte_identical": true
+  }
+}

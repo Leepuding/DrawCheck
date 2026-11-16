@@ -1,0 +1,688 @@
+{
+  "suite": "A",
+  "poppler_version": "pdftoppm version 26.10.0",
+  "review_dpi": 150,
+  "key_primary": "review_png_sha256",
+  "key_fallback": "pdf_sha256+page",
+  "entries": [
+    {
+      "file": "build/A/DEC-01-scope.pdf",
+      "pdf_sha256": "fdb864b14cbc717c395e5bf03c546bb8a51aa3df37f945de1289c6c7478de948",
+      "page": 1,
+      "review_png_sha256": "518588789b52d5292d7c67462b84a0aac16bd4e972f044bb499816bbf265300d",
+      "fallback_key": "fdb864b14cbc717c395e5bf03c546bb8a51aa3df37f945de1289c6c7478de948:1",
+      "facts": []
+    },
+    {
+      "file": "build/A/S-000-catalog.pdf",
+      "pdf_sha256": "a48e21cb318e462ce4851546c415f30b6b2aa37f4dd8cdfad61896ce3515d99b",
+      "page": 1,
+      "review_png_sha256": "94ef955a8a110cdd4353c417416d404fdf4f3d0b2513e39d71f9d610115da6ec",
+      "fallback_key": "a48e21cb318e462ce4851546c415f30b6b2aa37f4dd8cdfad61896ce3515d99b:1",
+      "facts": []
+    },
+    {
+      "file": "build/A/S-001-plan.pdf",
+      "pdf_sha256": "81075989c4e92385f26869a00184016dabce74ed865da02cc65cf79537aab278",
+      "page": 1,
+      "review_png_sha256": "12c040eaa0da7c6455e48ceda0c56bab8835e84a16197de9ba049f62cfc891fa",
+      "fallback_key": "81075989c4e92385f26869a00184016dabce74ed865da02cc65cf79537aab278:1",
+      "facts": [
+        {
+          "category": "图签编号前缀",
+          "text": "S-001",
+          "bbox": {
+            "x0": 0.8471296296296297,
+            "y0": 0.8907220351664796,
+            "x1": 0.9815211640211641,
+            "y1": 0.9738683127572016
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-002-dims.pdf",
+      "pdf_sha256": "2d1ff759fb0d6f1eeb46f0c173c2183d308ad1616bba52c936656a067c2703ab",
+      "page": 1,
+      "review_png_sha256": "97b699f76ba26c093e17afba75f19c6353384c6ca4c71987f09c6ad7c2471b88",
+      "fallback_key": "2d1ff759fb0d6f1eeb46f0c173c2183d308ad1616bba52c936656a067c2703ab:1",
+      "facts": [
+        {
+          "category": "尺寸",
+          "text": "100×100×100mm",
+          "bbox": {
+            "x0": 0.045730452674897115,
+            "y0": 0.751207671957672,
+            "x1": 0.13846824728769172,
+            "y1": 0.7673346560846561
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "100×200×100mm",
+          "bbox": {
+            "x0": 0.18826692854470628,
+            "y0": 0.751207671957672,
+            "x1": 0.28100472315750086,
+            "y1": 0.7673346560846561
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "100mm",
+          "bbox": {
+            "x0": 0.045730452674897115,
+            "y0": 0.8194113756613757,
+            "x1": 0.0804737186681631,
+            "y1": 0.8345304232804233
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "100",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "101mm",
+          "bbox": {
+            "x0": 0.1169986906098017,
+            "y0": 0.8194113756613757,
+            "x1": 0.1517419566030677,
+            "y1": 0.8345304232804233
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "101",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "100mm",
+          "bbox": {
+            "x0": 0.045730452674897115,
+            "y0": 0.8614087301587302,
+            "x1": 0.0804737186681631,
+            "y1": 0.8765277777777778
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "100",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "102mm",
+          "bbox": {
+            "x0": 0.1169986906098017,
+            "y0": 0.8614087301587302,
+            "x1": 0.1517419566030677,
+            "y1": 0.8765277777777778
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "102",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "150",
+          "bbox": {
+            "x0": 0.045730452674897115,
+            "y0": 0.9034060846560846,
+            "x1": 0.0680017770295548,
+            "y1": 0.9185251322751323
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "150"
+        },
+        {
+          "category": "尺寸",
+          "text": "150mm",
+          "bbox": {
+            "x0": 0.1169986906098017,
+            "y0": 0.9034060846560846,
+            "x1": 0.1517419566030677,
+            "y1": 0.9185251322751323
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "150",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "200×200mm",
+          "bbox": {
+            "x0": 0.23577908716797602,
+            "y0": 0.8194113756613757,
+            "x1": 0.2954662364384586,
+            "y1": 0.8345304232804233
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "200×200mm",
+          "bbox": {
+            "x0": 0.30704732510288063,
+            "y0": 0.8194113756613757,
+            "x1": 0.3667344743733632,
+            "y1": 0.8345304232804233
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-003-elev.pdf",
+      "pdf_sha256": "6c81daa1cc50a167bd1c4f159ea57d18fcd773c29f41354a0797c909f682a71e",
+      "page": 1,
+      "review_png_sha256": "aaf6e8f88c38debe9ac88c271d83e01aaae55609636f14c684380e9b882ee810",
+      "fallback_key": "6c81daa1cc50a167bd1c4f159ea57d18fcd773c29f41354a0797c909f682a71e:1",
+      "facts": [
+        {
+          "category": "标高",
+          "text": "±0.000=4.350m",
+          "bbox": {
+            "x0": 0.05627645502645502,
+            "y0": 0.7698035914702581,
+            "x1": 0.16450363756613756,
+            "y1": 0.7897586980920315
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4.350",
+          "unit": "m"
+        },
+        {
+          "category": "标高",
+          "text": "4.300m",
+          "bbox": {
+            "x0": 0.2326653439153439,
+            "y0": 0.7698035914702581,
+            "x1": 0.2853300264550264,
+            "y1": 0.7897586980920315
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4.300",
+          "unit": "m"
+        },
+        {
+          "category": "标高",
+          "text": "4.350m",
+          "bbox": {
+            "x0": 0.05627645502645502,
+            "y0": 0.8291937897493453,
+            "x1": 0.10894113756613755,
+            "y1": 0.8491488963711187
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4.350",
+          "unit": "m"
+        },
+        {
+          "category": "标高",
+          "text": "4.355m",
+          "bbox": {
+            "x0": 0.1486706349206349,
+            "y0": 0.8291937897493453,
+            "x1": 0.20133531746031744,
+            "y1": 0.8491488963711187
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4.355",
+          "unit": "m"
+        },
+        {
+          "category": "标高",
+          "text": "4.350m",
+          "bbox": {
+            "x0": 0.05627645502645502,
+            "y0": 0.8767059483726151,
+            "x1": 0.10894113756613755,
+            "y1": 0.8966610549943883
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4.350",
+          "unit": "m"
+        },
+        {
+          "category": "标高",
+          "text": "4.360m",
+          "bbox": {
+            "x0": 0.1486706349206349,
+            "y0": 0.8767059483726151,
+            "x1": 0.20133531746031744,
+            "y1": 0.8966610549943883
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4.360",
+          "unit": "m"
+        },
+        {
+          "category": "标高",
+          "text": "3.000m",
+          "bbox": {
+            "x0": 0.2662632275132275,
+            "y0": 0.8291937897493453,
+            "x1": 0.31892791005291,
+            "y1": 0.8491488963711187
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "3.000",
+          "unit": "m"
+        },
+        {
+          "category": "标高",
+          "text": "3.000m",
+          "bbox": {
+            "x0": 0.3334589947089947,
+            "y0": 0.8291937897493453,
+            "x1": 0.3861236772486772,
+            "y1": 0.8491488963711187
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "3.000",
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-004-materials.pdf",
+      "pdf_sha256": "4600145e4f2c961000996b7ff5079fcfe7cee2ecc8234327f70809495126787b",
+      "page": 1,
+      "review_png_sha256": "f653ecdcfdf5773ef43b9bc0976736585021f1799f08fecae0906be16097d6f0",
+      "fallback_key": "4600145e4f2c961000996b7ff5079fcfe7cee2ecc8234327f70809495126787b:1",
+      "facts": [
+        {
+          "category": "材料规格",
+          "text": "电缆YJV-3×95",
+          "bbox": {
+            "x0": 0.04787698412698412,
+            "y0": 0.7712289562289563,
+            "x1": 0.1234722222222222,
+            "y1": 0.7897586980920315
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "材料规格",
+          "text": "电缆YJV-3×70",
+          "bbox": {
+            "x0": 0.2158664021164021,
+            "y0": 0.7712289562289563,
+            "x1": 0.29146164021164017,
+            "y1": 0.7897586980920315
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "数量与材料表",
+          "text": "数量12",
+          "bbox": {
+            "x0": 0.04787698412698412,
+            "y0": 0.818741114852226,
+            "x1": 0.08113888888888887,
+            "y1": 0.8372708567153012
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "12"
+        },
+        {
+          "category": "数量与材料表",
+          "text": "数量10",
+          "bbox": {
+            "x0": 0.1654695767195767,
+            "y0": 0.818741114852226,
+            "x1": 0.19873148148148145,
+            "y1": 0.8372708567153012
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "10"
+        },
+        {
+          "category": "材料规格",
+          "text": "镀锌钢管DN100",
+          "bbox": {
+            "x0": 0.04787698412698412,
+            "y0": 0.8662532734754957,
+            "x1": 0.11641666666666668,
+            "y1": 0.884783015338571
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "材料规格",
+          "text": "镀锌钢管DN100",
+          "bbox": {
+            "x0": 0.2158664021164021,
+            "y0": 0.8662532734754957,
+            "x1": 0.28440608465608463,
+            "y1": 0.884783015338571
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "数量与材料表",
+          "text": "数量4",
+          "bbox": {
+            "x0": 0.04787698412698412,
+            "y0": 0.8900093527871306,
+            "x1": 0.07408333333333333,
+            "y1": 0.9085390946502058
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4"
+        },
+        {
+          "category": "数量与材料表",
+          "text": "数量4",
+          "bbox": {
+            "x0": 0.1654695767195767,
+            "y0": 0.8900093527871306,
+            "x1": 0.1916759259259259,
+            "y1": 0.9085390946502058
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "4"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-005-numbers.pdf",
+      "pdf_sha256": "30c1f144ba475cc73bbd0b80b84debca121b2dd406a8eb3eea8e14d78a396310",
+      "page": 1,
+      "review_png_sha256": "f5a116b20ec368aba3e76a32a1cd39fd59b168ca6a7d7b9bb2a741532d89481d",
+      "fallback_key": "30c1f144ba475cc73bbd0b80b84debca121b2dd406a8eb3eea8e14d78a396310:1",
+      "facts": [
+        {
+          "category": "编号写法",
+          "text": "XB-03",
+          "bbox": {
+            "x0": 0.06467592592592591,
+            "y0": 0.7774055368499813,
+            "x1": 0.12263227513227512,
+            "y1": 0.8016367377478488
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "编号写法",
+          "text": "XB-3",
+          "bbox": {
+            "x0": 0.2074669312169312,
+            "y0": 0.7774055368499813,
+            "x1": 0.25483994708994706,
+            "y1": 0.8016367377478488
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "编号写法",
+          "text": "XB-11",
+          "bbox": {
+            "x0": 0.06467592592592591,
+            "y0": 0.8486737747848859,
+            "x1": 0.12263227513227512,
+            "y1": 0.8729049756827535
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "编号写法",
+          "text": "XB-11",
+          "bbox": {
+            "x0": 0.2074669312169312,
+            "y0": 0.8486737747848859,
+            "x1": 0.2654232804232804,
+            "y1": 0.8729049756827535
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-006-index.pdf",
+      "pdf_sha256": "56e3b147f25d8d453f7a19dd2173e15fd4808f954228ef29f25a92961d25ff2f",
+      "page": 1,
+      "review_png_sha256": "5555859070860c63f013bb39086fb57248cf0d8526349c789b04a04a96f90ba1",
+      "fallback_key": "56e3b147f25d8d453f7a19dd2173e15fd4808f954228ef29f25a92961d25ff2f:1",
+      "facts": [
+        {
+          "category": "详图索引断链",
+          "text": "见详图S-099",
+          "bbox": {
+            "x0": 0.06467592592592591,
+            "y0": 0.7802562663673775,
+            "x1": 0.14027116402116402,
+            "y1": 0.8016367377478488
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "详图索引断链",
+          "text": "见详图S-003",
+          "bbox": {
+            "x0": 0.06467592592592591,
+            "y0": 0.8396464646464646,
+            "x1": 0.14027116402116402,
+            "y1": 0.861026936026936
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-007-multi.pdf",
+      "pdf_sha256": "b06abc7626a95fb27a6d21bc7c23bfb567a5ba378667d4049131efa15cae6395",
+      "page": 1,
+      "review_png_sha256": "c35bb324fe9c4435189752f18e521ace618ecbd952b925601bdac044b2fafc13",
+      "fallback_key": "b06abc7626a95fb27a6d21bc7c23bfb567a5ba378667d4049131efa15cae6395:1",
+      "facts": []
+    },
+    {
+      "file": "build/A/S-008-notitle.pdf",
+      "pdf_sha256": "4bbf8c736c6547d79612663c262f33390f58f2be976bc3274dd6a39f7417da08",
+      "page": 1,
+      "review_png_sha256": "3079ab73513ae7d06b9c91951fee19a30af795a326ca33bd9a811fe53670b418",
+      "fallback_key": "4bbf8c736c6547d79612663c262f33390f58f2be976bc3274dd6a39f7417da08:1",
+      "facts": []
+    },
+    {
+      "file": "build/A/S-009-blur.pdf",
+      "pdf_sha256": "00e0753fbe3af0ea8b862d5d311d07b04c2a48a3a08677ef2b892711d22b807f",
+      "page": 1,
+      "review_png_sha256": "c443815589f6264b7f6f3327a51dddd411437f40828ddbf643ccb8fbcb55f92a",
+      "fallback_key": "00e0753fbe3af0ea8b862d5d311d07b04c2a48a3a08677ef2b892711d22b807f:1",
+      "facts": [
+        {
+          "category": "尺寸",
+          "text": "2400",
+          "bbox": {
+            "x0": 0.06467592592592591,
+            "y0": 0.7774055368499813,
+            "x1": 0.1120489417989418,
+            "y1": 0.8016367377478488
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别",
+          "numeric_value": "2400",
+          "unit": "mm"
+        },
+        {
+          "category": "尺寸",
+          "text": "2?00",
+          "bbox": {
+            "x0": 0.1822685185185185,
+            "y0": 0.7774055368499813,
+            "x1": 0.22964153439153434,
+            "y1": 0.8016367377478488
+          },
+          "confidence": 0.2,
+          "unclear": true,
+          "source": "看图识别"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-010-samename.pdf",
+      "pdf_sha256": "0bfa1612e036b9d578712215def54bbd0b5ada10e192f587a5fc61de17618751",
+      "page": 1,
+      "review_png_sha256": "ae5b4f9c3a358d1a9e426804ab5b20d805d68d1fb527a4a2de2834848481e6f6",
+      "fallback_key": "0bfa1612e036b9d578712215def54bbd0b5ada10e192f587a5fc61de17618751:1",
+      "facts": [
+        {
+          "category": "同名不同对象",
+          "text": "基础F1",
+          "bbox": {
+            "x0": 0.06467592592592591,
+            "y0": 0.7802562663673775,
+            "x1": 0.10499338624338624,
+            "y1": 0.8016367377478488
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "同名不同对象",
+          "text": "基础F1",
+          "bbox": {
+            "x0": 0.2326653439153439,
+            "y0": 0.8396464646464646,
+            "x1": 0.2729828042328042,
+            "y1": 0.861026936026936
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        },
+        {
+          "category": "同名不同对象",
+          "text": "支架Z1",
+          "bbox": {
+            "x0": 0.06467592592592591,
+            "y0": 0.8634025439580996,
+            "x1": 0.10499338624338624,
+            "y1": 0.884783015338571
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-EXTRA.pdf",
+      "pdf_sha256": "1fce7199dd6832e53ba2e84e846bff6780bae7550765bfd222966ea7826460b9",
+      "page": 1,
+      "review_png_sha256": "f74e4c8a016bb09119212668ed55c6cb281da1ac586f782e8b82278a978f9140",
+      "fallback_key": "1fce7199dd6832e53ba2e84e846bff6780bae7550765bfd222966ea7826460b9:1",
+      "facts": [
+        {
+          "category": "目录与图签不符",
+          "text": "S-EXTRA",
+          "bbox": {
+            "x0": 0.8471296296296297,
+            "y0": 0.8907220351664796,
+            "x1": 0.9815211640211641,
+            "y1": 0.9738683127572016
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        }
+      ]
+    },
+    {
+      "file": "build/A/S-PREFIX-bad.pdf",
+      "pdf_sha256": "d9baa03e0484eb43242caa255744c0b25db14e6f7c22f74635c6dd89763075ec",
+      "page": 1,
+      "review_png_sha256": "54a8fd2e57e116e60f57383a4853bbbea5eee8818809c98a49b142264f799931",
+      "fallback_key": "d9baa03e0484eb43242caa255744c0b25db14e6f7c22f74635c6dd89763075ec:1",
+      "facts": [
+        {
+          "category": "图签编号前缀",
+          "text": "AB-001",
+          "bbox": {
+            "x0": 0.8471296296296297,
+            "y0": 0.8907220351664796,
+            "x1": 0.9815211640211641,
+            "y1": 0.9738683127572016
+          },
+          "confidence": 0.99,
+          "unclear": false,
+          "source": "看图识别"
+        }
+      ]
+    }
+  ]
+}

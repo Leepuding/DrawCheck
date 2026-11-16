@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "platform": "win-amd64",
+  "components": [
+    {
+      "id": "poppler",
+      "version": "REPLACE_WITH_VERIFIED_VERSION",
+      "origin": "https://poppler.freedesktop.org/",
+      "files": {"poppler/bin/pdfinfo.exe": "REPLACE_WITH_SHA256", "poppler/bin/pdftoppm.exe": "REPLACE_WITH_SHA256", "poppler/COPYING": "REPLACE_WITH_SHA256", "sources/poppler-source.tar.xz": "REPLACE_WITH_SHA256"},
+      "licenses": ["poppler/COPYING"],
+      "sources": ["sources/poppler-source.tar.xz"],
+      "source_notes": "REPLACE: exact upstream version, binary distributor URL, patches and build instructions"
+    },
+    {
+      "id": "libredwg",
+      "version": "0.13.3",
+      "origin": "https://www.gnu.org/software/libredwg/",
+      "files": {"libredwg/bin/dwg2dxf.exe": "REPLACE_WITH_SHA256", "libredwg/bin/dwgread.exe": "REPLACE_WITH_SHA256", "libredwg/COPYING": "REPLACE_WITH_SHA256", "sources/libredwg-source.tar.xz": "REPLACE_WITH_SHA256"},
+      "licenses": ["libredwg/COPYING"],
+      "sources": ["sources/libredwg-source.tar.xz"],
+      "source_notes": "REPLACE: exact binary provenance, corresponding source, patches and build instructions"
+    },
+    {
+      "id": "7zip",
+      "version": "REPLACE_WITH_VERIFIED_VERSION",
+      "origin": "https://www.7-zip.org/",
+      "files": {"7zip/7z.exe": "REPLACE_WITH_SHA256", "7zip/License.txt": "REPLACE_WITH_SHA256", "sources/7zip-source.tar.xz": "REPLACE_WITH_SHA256"},
+      "licenses": ["7zip/License.txt"],
+      "sources": ["sources/7zip-source.tar.xz"],
+      "source_notes": "REPLACE: include LGPL/BSD/unRAR notices and matching source/build details; include 7z.dll if this executable requires it"
+    },
+    {
+      "id": "webview2",
+      "version": "REPLACE_WITH_FILE_VERSION",
+      "origin": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/",
+      "files": {"webview2/MicrosoftEdgeWebView2RuntimeInstallerX64.exe": "REPLACE_WITH_SHA256", "webview2/LICENSE.txt": "REPLACE_WITH_SHA256"},
+      "licenses": ["webview2/LICENSE.txt"],
+      "sources": [],
+      "source_notes": "Microsoft Evergreen STANDALONE x64 installer; preserve redistribution terms; not the online bootstrapper"
+    },
+    {
+      "id": "fonts",
+      "version": "REPLACE_WITH_VERIFIED_ASSET_VERSIONS",
+      "origin": "https://github.com/google/material-design-icons",
+      "files": {"fonts/Inter-OFL.txt": "REPLACE_WITH_SHA256", "fonts/MaterialSymbols-LICENSE.txt": "REPLACE_WITH_SHA256"},
+      "licenses": ["fonts/Inter-OFL.txt", "fonts/MaterialSymbols-LICENSE.txt"],
+      "sources": [],
+      "source_notes": "REPLACE: verify these notices match the fonts already in frontend/assets/fonts; record exact provenance for both font families"
+    }
+  ]
+}
